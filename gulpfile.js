@@ -1,5 +1,6 @@
 //initialize modules
 const gulp = require('gulp');
+const browserSync = require('browser-sync').create(); 
 const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass');
 const concat = require('gulp-concat');
@@ -8,7 +9,7 @@ const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const replace = require('gulp-replace');
-const browserSync = require('browser-sync').create();
+
 
 // file path vars
 const files = {
@@ -49,7 +50,8 @@ function cacheBustTask() {
 function watchTask() {
   browserSync.init({
 		server: {
-      baseDir:"./"
+      baseDir:"./",
+      index: "/index.html"
     }
 	});
   gulp.watch([files.scssPath, files.jsPath],

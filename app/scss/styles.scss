@@ -1,3 +1,13 @@
+
+$theme-colors: (
+  "primary": #FF69B4
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
 html {
   box-sizing: border-box;
   font-size:15px;
@@ -6,7 +16,7 @@ html {
 
 body {
   padding: 20px;
-  background-color:lightpink;
+  background-color:lightblue;
   color:black;
   font-family:sans-serif;
 
