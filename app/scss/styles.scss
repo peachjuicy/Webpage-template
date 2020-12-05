@@ -1,23 +1,15 @@
 
-$theme-colors: (
-  "primary": #FF69B4
-);
+@import "./variables";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 
 
-
-html {
-  box-sizing: border-box;
-  font-size:15px;
-  background-color:lightpink;
-}
-
 body {
-  padding: 20px;
-  background-color:lightblue;
-  color:black;
+  font-size: $font-size-base;
+  box-sizing: border-box;
   font-family:sans-serif;
-
+  background:white;
+  color: black;
 }
+
