@@ -30,7 +30,8 @@
     "postcss": "^8.1.14"
   },
   "dependencies": {
-    "bootstrap": "^4.5.3"
+    "bootstrap": "^4.5.3",
+    "material-design-icons": "^3.0.1"
   },
   "peerDependencies": {
     "postcss": "^8.0.0"

@@ -10,6 +10,20 @@ body {
   box-sizing: border-box;
   font-family:sans-serif;
   background:white;
-  color: black;
+  color: white;
 }
-
+html {
+  font-size:16px;
+}
+hr {
+  border-top:1px solid black;
+}
+p {
+  text-indent:3em;
+}
+a{
+  color: #ffffff;
+}
+a:hover{
+  color:purple;
+}

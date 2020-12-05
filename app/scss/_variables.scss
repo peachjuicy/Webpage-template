@@ -14,3 +14,11 @@ $container-max-widths: (
 );
 
 $border-width: 7px;
+$carousel-indicator-width:10px;
+$carousel-indicator-height:10px;
+
+.carousel-indicators li {
+  width: $carousel-indicator-width;
+  height: $carousel-indicator-height;
+  border-radius: 100%;
+}
